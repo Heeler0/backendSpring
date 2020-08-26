@@ -1,7 +1,7 @@
 # backendSpring
 Spring code without mq, just to take request and insert to database.
 
-Spring app was created with https://start.spring.io/ 
+Spring app was created with https://start.spring.io/ /n
 Version 2.3.3, Java 8, Maven
 Libraries added:
 Spring Boot DevTools
