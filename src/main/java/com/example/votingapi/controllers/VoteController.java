@@ -15,6 +15,8 @@ public class VoteController {
     @Autowired
     VotesRepository votesRepository;
 
+
+    //Check for requests and make a Votes class and add it to database using jpa library
     @RequestMapping(value = "/vote", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
     public String process(@RequestBody Map<String, String> animalType) {
         try {
